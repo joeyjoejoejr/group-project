@@ -1,0 +1,45 @@
+body {
+  overflow: hidden;
+  margin: 0;
+  background: #777;
+}
+
+#controls {
+  position: absolute;
+  padding:  0 1em 1em 1em;
+  left: 1em;
+  top: 1em;
+  background: #DDD;
+}
+
+#controls a {
+  border: 2px solid #222;
+  margin: 1em;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: #222;
+  background: #EEE;
+}
+
+#controls a:hover {
+  background: #DDD;
+}
+
+#controls a:active {
+  background: #CCC;
+}
+
+.demo-controls {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+  overflow: hidden;
+  width: 250px;
+}
+
+.fadeout {
+  opacity: 0;
+}
+
+.fadein {
+  opacity: 0;
+}
