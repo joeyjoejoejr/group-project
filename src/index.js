@@ -1,3 +1,4 @@
+document.getElementById('controls').addEventListener("mousedown", e => e.stopPropagation())
 const demos = [
   { name: "charges", label: "Simple charges" }
 ]
